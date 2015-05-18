@@ -1,0 +1,78 @@
+﻿生成启动时间为 2014/6/27 20:47:56。
+     1>项目“d:\我的文档\visual studio 2013\Projects\Compiler\Compiler\Compiler.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Microsoft Visual Studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt Analyze.c CGEN.C CODE.C parser.tab.c scan.c SymTab.c test.c util.c
+         util.c
+         test.c
+         SymTab.c
+         scan.c
+         parser.tab.c
+     1>bison.simple(332): warning C4013: “yylex”未定义；假设外部返回 int
+     1>parser.y(105): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         CODE.C
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\code.c(214): warning C4028: 形参 1 与声明不同
+         CGEN.C
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(96): warning C4047: “函数”:“int”与“char [100]”的间接级别不同
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(96): warning C4024: “useJalLab”: 形参和实参 1 的类型不同
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(98): warning C4013: “enterFuncDecl”未定义；假设外部返回 int
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(101): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(106): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(107): warning C4013: “leaveFuncDecl”未定义；假设外部返回 int
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(130): warning C4047: “函数”:“int”与“char [100]”的间接级别不同
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(130): warning C4024: “useJalLab”: 形参和实参 1 的类型不同
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(138): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(144): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(166): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(198): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(217): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(257): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(260): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(268): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(271): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(284): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(286): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(292): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(294): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(354): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(362): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(388): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(409): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(439): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(441): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(485): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(492): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(498): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(34): warning C4101: “savedLoc2”: 未引用的局部变量
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(34): warning C4101: “savedLoc1”: 未引用的局部变量
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(33): warning C4101: “p5”: 未引用的局部变量
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(35): warning C4101: “loc2”: 未引用的局部变量
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(34): warning C4101: “currentLoc”: 未引用的局部变量
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(526): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(594): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(599): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(628): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(652): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(654): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(780): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(788): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(797): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(805): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\cgen.c(876): warning C4013: “getFuncAmt”未定义；假设外部返回 int
+         Analyze.c
+     1>d:\我的文档\visual studio 2013\projects\compiler\compiler\analyze.c(398): warning C4101: “expNode”: 未引用的局部变量
+         正在生成代码...
+       Link:
+         D:\Microsoft Visual Studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"d:\我的文档\visual studio 2013\Projects\Compiler\Debug\Compiler.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"d:\我的文档\visual studio 2013\Projects\Compiler\Debug\Compiler.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"d:\我的文档\visual studio 2013\Projects\Compiler\Debug\Compiler.lib" /MACHINE:X86 Debug\Analyze.obj
+         Debug\CGEN.obj
+         Debug\CODE.obj
+         Debug\parser.tab.obj
+         Debug\scan.obj
+         Debug\SymTab.obj
+         Debug\test.obj
+         Debug\util.obj
+         Compiler.vcxproj -> d:\我的文档\visual studio 2013\Projects\Compiler\Debug\Compiler.exe
+     1>已完成生成项目“d:\我的文档\visual studio 2013\Projects\Compiler\Compiler\Compiler.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.16

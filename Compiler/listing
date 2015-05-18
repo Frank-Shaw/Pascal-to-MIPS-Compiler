@@ -1,0 +1,74 @@
+  RoutineK
+    RHeadK
+      TypeDefK
+        IdK: int
+        TypeK: integer
+      DeclK
+        IdK: a
+        TypeK: IDType
+          IdK: int
+      DeclK
+        IdK: b
+        TypeK: IDType
+          IdK: int
+      DeclK
+        IdK: c
+        TypeK: IDType
+          IdK: int
+      DeclK
+        PHeadK
+          IdK: max
+          ParaK
+            IdK: num1
+            IdK: num2
+            TypeK: integer
+        RoutineK
+          RHeadK
+          IfK
+            OpK: <
+              IdK: num1
+              IdK: num2
+            WriteK
+              IdK: num1
+            WriteK
+              IdK: num2
+    AssignK: 
+      IdK: a
+      ConstIK: 4
+    AssignK: 
+      IdK: b
+      ConstIK: 2
+    AssignK: 
+      IdK: c
+      ConstIK: 1
+    ProcK: 
+      IdK: max
+      IdK: a
+      IdK: b
+    ProcK: 
+      IdK: max
+      IdK: b
+      IdK: c
+
+Symbol table 0:
+
+Variable Name   Variable Type   Location   Line Numbers
+-------------   -------------   --------   ------------
+max             procedure       1            9   22   23 
+boolean         boolean         -1          -1 
+string          string          -1          -1 
+int             integer         0            3 
+real            real            -1          -1 
+a               integer         1            5   19 
+b               integer         2            6   20 
+c               integer         3            7   21 
+integer         integer         -1          -1 
+
+
+Symbol table 1:
+
+Variable Name   Variable Type   Location   Line Numbers
+-------------   -------------   --------   ------------
+num1            integer         0            9   12   13 
+num2            integer         1            9   12   15 
+
